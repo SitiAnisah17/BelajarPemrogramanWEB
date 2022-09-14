@@ -1,0 +1,19 @@
+body{
+    color:rgb(130, 31, 115);
+    background-color: rgb(251, 202, 254);
+}
+
+.form input{
+    background-color: rgb(197, 163, 199);
+    font-family: monospace;
+    font-size: medium;
+    color: rgb(65, 9, 61);
+}
+
+
+/*style*/
+.alamat input{
+    
+}
+
+

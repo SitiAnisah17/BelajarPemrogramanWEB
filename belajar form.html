@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form</title>
+</head>
+<style>
+    h1{
+        background-color: rgb(65, 93, 116);
+        width: 50%;
+        height: 50%;
+
+    }
+    body{
+        background-color: rgb(95, 140, 156);
+    }
+    #Alamat{
+        margin-left: 55px;
+        padding-top: 3px;
+    }
+    div.alamat{
+        margin-top: 5px;
+    }
+</style>
+<body>
+    <form>
+    <fieldset>
+       <h1>Formulir Pendaftaran Calon Siswa Baru</h1>
+       <hr>
+        <div class="form-input">
+            <label for="Nama lengkap">Nama lengkap :</label>
+            <input type="text" id="Nama lengkap">
+        </div>
+        <br>
+        <div class="form-input">
+            <label for="Jenis kelamin">jenis kelamin :</label>
+            <input type="radio" name="jeniskelamin" id="Perempuan"><label for="Perempuan">Perempuan</label>
+            <input type="radio" name="jeniskelamin" id="Laki-laki"><label for="Laki-laki">Laki-laki</label>
+        </div>
+        <br>
+        <div class="alamat">
+            <label for="Alamat">Alamat :</label>
+            </div>
+            <textarea name="Masukkan alamat" id="Alamat" cols="20px" rows="5px"></textarea>
+            <br>
+        <div class="form-input">
+           <label for="">Tanggal lahir :</label>
+            <input type="date" id="tgl">
+        </div>
+        <br>
+        <div class="form-input">
+            <label for="E-mail">E-mail :</label>
+         <input type="email" id="E-mail">
+        </div>
+        <br>
+        <div class="form-input">
+            <label for="No. Hp">No. HP :</label>
+            <input type="tel" id="No. HP">
+        </div>
+        <br>
+        <div class="form-input">
+            <label for=""No Induk Siswa Nasional>No Induk Siswa Nasional :</label>
+            <input type="text"  id="NISN">
+        </div>
+        <br>
+    <div class="form-input">
+        <label for="Asal sekolah">Asal sekolah :</label>
+        <input type="text" id="Asal skolah">
+    </div>
+      <br>
+    <div class="form-input">
+        <label for="Alamat sekolah">Alamat sekolah :</label>
+         <textarea id="sekolah"></textarea>
+    </div>
+    <br>
+    <div class="form-input">
+        <label for="Daftar ke">Daftar ke :</label>
+       <select name="Daftar ke" id="Daftar ke">
+        <option value="1"></option>
+        <option value="2">SMP</option>
+        <option value="3">SMA</option>
+       </select>
+    </div>
+    <br>
+    <div class="form-input">
+        <label for="Add photo">Add photo</label>
+       <input type="file" id="Add photo">
+    </div>
+    <br>
+    <button type="submit">Submit form</button>
+    </fieldset>
+   </form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.container{
+    margin: 500px;
+    border: 2px solid black;
+    width: 500px;
+    background-color: rgb(127, 118, 184);
+}
+
+img{
+    float:left;
+    margin: 5px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 100px;
+}

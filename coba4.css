@@ -1,0 +1,60 @@
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    .register {
+        width: 500% !important;
+ }
+    .login {
+        width: 300px !important;
+ }
+ .box{
+    width: fit-content;
+    border: solid 1px white;
+    box-shadow: 5px 5px 10px cornflowerblue;
+    padding: 20px;
+    padding-top: 5px;
+    background-color: cornflowerblue;
+ }
+ .box .header{
+    color: azure;
+ }
+    .form-input{
+        display: grid;
+        margin-top: 10px;
+    }
+    .form-input label{
+        margin-bottom: 10px;
+        color: azure;
+    }
+    .form-input input{
+        height: 25px;
+        border: solid 1px azure;
+    }
+        .button-input{
+            display: grid;
+            height: 40px;
+            margin-top: 30px;
+        }
+        .button-input input{
+            background-color: limegreen;
+            color: azure;
+            font-size: 15px
+            border:none;
+        }
+            .button-input button:hover{
+                background-color: rgb(0, 195, 0);
+                transition: 0.5s;
+            }
+            label[for="agreements"]{
+                margin-left: 5px;
+            }
+            .agreements{
+                color: azure;
+                margin-top: 20px;
+            }
+        
